@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body {
+    margin: 0;
+    font-family: Nunito, serif;
+}
+
+.menu {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 10%;
+    padding: 20px 40px;
+    font-weight: lighter;
+}
+
+.menu a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.dropdown:hover button {
+    background-color: #ccc;
+    color: black;
+}
+
+.dropdown button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 20px 40px;
+    background-color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    background-image: url(mac.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 58px;
+}
+
+
+.header p {
+    margin: 45px 0;
+}
+
+.header a {
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header a:hover {
+    background-color: #d2d2d2;
+}
+
+.about-company h2 {
+    text-align: center;
+}
+
+.about-company {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.about-company p{
+    text-align: justify;
+}
+
+.about-company img {
+    border-radius: 15px;
+    width: 400px;
+    float: right;
+    margin: 60px 30px;
+
+}
+
+
+.team {
+    text-align: center;
+
+}
+
+.member {
+    border-radius: 15px;
+    display: inline-block;
+    width: 20%;
+    min-width: 340px;
+    vertical-align: top;
+    margin: 20px 10px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0 0 30px -10px black;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.member h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.member .position {
+    opacity: 0.6;
+}
+
+.member a {
+    display: inline-block;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: black;
+    padding: 14px 0;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.prices {
+
+    text-align: center;
+    padding: 50px 0;
+}
+
+.prices h2,
+.prices p {
+    color: white;
+}
+
+.tariff {
+    display: inline-block;
+    width: 30%;
+    min-width: 150px;
+    margin: 10px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 30px -10px black;
+
+}
+
+.tariff li {
+    list-style-type: none;
+    padding: 18px 0;
+}
+
+.tariff .tariff-name {
+    border-radius: 15px 15px 0 0;
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    padding: 32px 0;
+}
+
+.tariff .best {
+    border-radius: 15px 15px 0 0;
+    background-color: #f44336;
+    padding: 48px 0;
+}
+
+
+.tariff a {
+    background-color: black;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+
+.important {
+    font-weight: bold;
+}
+
+
+.prices .price {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.prices .period {
+    color: black;
+    opacity: 0.4;
+}
+
+
+.contact {
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-info {
+    text-align: left;
+    padding-left: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    margin-left: 5%;
+}
+
+.contact-address {
+    background-image: url(address.png);
+}
+
+.contact-phone {
+    background-image: url(phone.png);
+}
+
+.contact-mail {
+    background-image: url(mail.png);
+}
+
+.contact input {
+    padding: 15px;
+    width: 70%;
+    border: none;
+    box-shadow: 0 0 20px -10px black;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
